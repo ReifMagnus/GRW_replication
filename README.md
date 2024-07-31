@@ -10,7 +10,7 @@ Code requires at least Matlab 2021b.
 
 Codes is based on Antolín-Díaz and Rubio-Ramírez (2018, AER).
 Code for computing the Bayes estimator for impulse responses is taken from the website of Lutz Kilian.
-Code for computing joint confidence bands is provided by Mikkel Plagborg-Möller.
+Code for computing joint confidence bands is provided by Mikkel Plagborg-Møller.
 
 This code is free to use. When you use the code in your research, please cite:
 

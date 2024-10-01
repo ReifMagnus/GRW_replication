@@ -12,9 +12,9 @@ function ve = LogVolumeElement(f,x,h)
 %  element of f, restricted to the manifold, when evaluated at x.
 %
 
-Dfx=NumericalDerivative(f,x);          % m x n matrix
+Dfx=NumericalDerivative(x,f);          % m x n matrix
 if nargin > 2
-    Dhx=NumericalDerivative(h,x);      % (n-k) x n matrix
+    Dhx=NumericalDerivative(x,h);      % (n-k) x n matrix
     N=Dfx*perp(Dhx');                  % perp(Dhx') - n x k matrix
     ve=0.5*LogAbsDet(N'*N);
 else

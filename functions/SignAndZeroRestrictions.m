@@ -70,7 +70,7 @@ Bdraw = [Bdraw(size(exog,2)+1:end,:); Bdraw(1:size(exog,2),:)];
         
         %% compute importance sampling weights
         
-        if ~isempty(Z{1,:})
+        if ~isempty(Z)
         
         switch agnostic
             case 'structural'
